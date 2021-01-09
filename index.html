@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning App</title>
+  </head>
+  <body>
+    <!-- test form to see which language you want to learn -->
+
+    <!-- user's name -->
+    <form action="" method="post">
+      <label for="nameInput"> Name
+        <input type="text" name="nameInput" id="nameInput">
+      </label>
+
+      <!-- possible languages user can learn -->
+      <h3>Pick the language(s) you currently want to learn: </h3>
+      
+      <ul id="languages" style="list-style-type:none">
+        <li>
+          <label for="languageOne"> 
+            <input type="radio" name="languageOne" id="languageOne">
+            English
+          </label>
+        </li>
+        <li>
+          <label for="languageTwo"> 
+            <input type="radio" name="languageTwo" id="languageTwo">
+            Chinese
+          </label>
+        </li>
+        <li>
+          <label for="languageThree">
+            <input type="radio" name="languageThree" id="languageThree">
+            Spanish
+          </label>
+        </li>
+        <li>
+          <label for="languageFour"> 
+            <input type="radio" name="languageFour" id="languageFour">
+            Japanese
+          </label>
+        </li>
+        <li>
+          <label for="languageFive"> 
+            <input type="radio" name="languageFive" id="languageFive">
+            Hindi
+          </label>
+        </li>
+      </ul>
+      
+      <input type="submit" value="Done">
+    </form>
+  </body>
+</html>
