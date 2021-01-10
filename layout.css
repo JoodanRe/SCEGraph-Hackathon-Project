@@ -2,4 +2,13 @@ body {
   text-align: center;
   margin: 64px 64px;
   font-size: 24px;
+  background-color: green;
+}
+
+#nameInput {
+  font-size: 24px;
+}
+
+#submitButton {
+  font-size: 24px;
 }
